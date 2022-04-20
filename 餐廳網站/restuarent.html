@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>濬老大廚房</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo"><img src="images/logo.jpg">濬老大廚房</a>
+        <!-- RWD時的按鈕 -->
+        <div class="fas fa-bars" id="menu-bar"></div>
+        <nav class="navbar">
+            <a href="#home">本周主打</a>
+            <a href="#category">料理菜色</a>
+            <a href="#menu">套餐</a>
+            <a href="#review">評論</a>
+            <a href="#order">訂購</a>
+        </nav>
+
+    </header>
+
+    <!-- 首頁 -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>強壯雞胸肉</h3>
+            <p>越吃越強壯！</p>
+            <a href="#" class="btn">立即訂購</a>
+        </div>
+        <img src="images/雞胸肉.jpg" alt="">
+    </section>
+
+    <!-- 料理 -->
+    <section class="category" id="category">
+        <h1 class="heading">濬老大廚房<span>料理菜色</span></h1>
+        <div class="box-container">
+            <!-- 第一個料理 -->
+            <div class="box">
+                <img class="image" src="images/rice_end.jpg">
+                <div class="content">
+                    <img src="images/rice_front.jpg" alt="">
+                    <h3>飯類</h3>
+                    <p>香噴噴好吃飯</p>
+                </div>
+            </div>
+            <!-- 第二個料理 -->
+            <div class="box">
+                <img class="image" src="images/烏龍麵_end.jpg">
+                <div class="content">
+                    <img src="images/麵_.jpg" alt="">
+                    <h3>麵類</h3>
+                    <p>香噴噴好吃麵</p>
+                </div>
+            </div>
+            <!-- 第三個料理 -->
+            <div class="box">
+                <img class="image" src="images/玉米_end.jpg">
+                <div class="content">
+                    <img src="images/玉米_front.jpg" alt="">
+                    <h3>飯類</h3>
+                    <p>好猛的玉米</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 套餐 -->
+    <section class="menu" id="menu">
+        <h1 class="heading">濬老大廚房<span>套餐</span></h1>
+        <div class="box-container">
+            <!-- 套餐1 -->
+            <div class="box">
+                <span>$99</span>
+                <img src="images/rice_end.jpg" alt="">
+                <h3 class="name">牛B雞腿雙拼</h3>
+                <a href="#" class="buy">訂購</a>
+            </div>
+            <!-- 套餐2 -->
+            <div class="box">
+                <span>$109</span>
+                <img src="images/烏龍麵_end.jpg" alt="">
+                <h3 class="name">絕頂海鮮麵食</h3>
+                <a href="#" class="buy">訂購</a>
+            </div>
+            <!-- 套餐3 -->
+            <div class="box">
+                <span>$129</span>
+                <img src="images/玉米_front.jpg" alt="">
+                <h3 class="name">神秘現做特餐</h3>
+                <a href="#" class="buy">訂購</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 評論 -->
+    <section class="review" id="review">
+        <h1 class="heading">濬老大廚房<span>評論區</span></h1>
+        <div class="box-container">
+            <!-- 第一個評論 -->
+            <div class="box">
+                <img src="images/五條悟.png" alt="">
+                <h3>路人甲</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>牛排好好吃</p>
+            </div>
+            <!-- 第二個評論 -->
+            <div class="box">
+                <img src="images/伏黑惠.png" alt="">
+                <h3>路人乙</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>海鮮好好吃</p>
+            </div>
+            <!-- 第三個評論 -->
+            <div class="box">
+                <img src="images/虎杖.png" alt="">
+                <h3>路人丙</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>甚麼都好好吃</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 訂購 -->
+    <section class="order" id="order">
+        <h1 class="heading">濬老大廚房<span>訂購區</span></h1>
+        <div class="box-container">
+            <div class="row">
+                <div class="image">
+                    <img src="images/order.png" alt="">
+                </div>
+                <form action="">
+                    <div class="inputbox">
+                        <input type="text" placeholder="姓名">
+                        <input type="email" placeholder="信箱">
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" placeholder="電話">
+                        <input type="text" placeholder="取餐時間">
+                    </div>
+                    <textarea name="" id="" cols="40" rows="5"></textarea>
+                    <input type="submit" value="立即訂購" class="buynow">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer" id="footer">
+        <h1 class="heading">About Us</h1>
+        <div class="box-container">
+            <div class="social">
+                <a href="#"><i class="fa-solid fa-comments" style="color: blue; font-size: 35px;"></i></a>
+                <a href="#"><i class="fa-brands fa-line" style="color: green; font-size: 35px;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-square" style="color: blue; font-size: 35px;"></i></a>
+            </div>
+            <div class="connection">
+                <p>電話：123456789</p>
+                <p>Jim's Web</p>
+            </div>
+        </div>
+
+    </section>
+
+    <a href="#home" class="fas fa-angle-up" id="scroll-up"></a>
+
+</body>
+
+    <script src="js/script.js"></script>
+</html>
